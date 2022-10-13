@@ -1,1 +1,3 @@
-# pirates_Invasion_para_Apps.github.io
+# PiratesInvasionStage-6
+
+adding animations

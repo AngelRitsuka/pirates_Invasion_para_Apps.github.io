@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative; /*Alterações para publicação na PlayStore*/ 
+  /* align-items: center;  Alterações para publicação na PlayStore*/ 
+  /* display: flex;  /* Alterações para publicação na PlayStore*/ 
+   /*justify-content: center;  Alterações para publicação na PlayStore*/ 
+}
+
+html {
+  height: 100%;     /* Alterações para publicação na PlayStore*/ 
+  width: 100%;     /* Alterações para publicação na PlayStore*/
+}
+
+#modal {
+  position: relative;
+  width: 100%;
+}
+
+
+#absolute {
+  position: absolute;
+  bottom: 40px;
+  right: 120px;
+}
+
+
+
+#botoes-acao {
+  position: fixed; /* não defina top/bottom/left/right */
+  width: 55px;
+  height: 55px;
+}
+
+
+.botoes-modal-right {
+  width: 120px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0; 
+}
+
+
+.botoes-modal-left {
+  width: 120px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0; 
+}
+
+.botoes-modal-fire {
+  width: 120px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0; 
+}
+
+
+.img-modal {
+  width: 55px;
+  height: 55px;
+}
